@@ -9,16 +9,16 @@ int main(int argc, char *argv[])
             numbers[0], numbers[1],
             numbers[2], numbers[3]);
 
-    printf("name each: %c %c %c %c\n",
+    printf("name each: %d %d %d %d\n",
             name[0], name[1],
             name[2], name[3]);
 
     printf("name: %s\n", name);
 
-    numbers[0] = 'a';
-    numbers[1] = 'b';
-    numbers[2] = 'c';
-    numbers[3] = 'd';
+    numbers[0] = 1;
+    numbers[1] = 2;
+    numbers[2] = 3;
+    numbers[3] = 4;
 
     name[0] = 'Z';
     name[1] = 'e';
